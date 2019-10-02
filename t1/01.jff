@@ -3,8 +3,139 @@
 	<automaton>
 		<!--The list of states.-->
 		<state id="0" name="q0">
-			<x>226.0</x>
-			<y>180.0</y>
+			<x>76.0</x>
+			<y>83.0</y>
+			<initial/>
 		</state>
+		<state id="1" name="q1">
+			<x>176.0</x>
+			<y>83.0</y>
+		</state>
+		<state id="2" name="q2">
+			<x>263.0</x>
+			<y>48.0</y>
+		</state>
+		<state id="3" name="q3">
+			<x>359.0</x>
+			<y>81.0</y>
+		</state>
+		<state id="4" name="q4">
+			<x>459.0</x>
+			<y>81.0</y>
+			<final/>
+		</state>
+		<state id="5" name="q5">
+			<x>288.0</x>
+			<y>179.0</y>
+		</state>
+		<state id="6" name="q6">
+			<x>347.0</x>
+			<y>-41.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read/>
+			<write/>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<controlx>223</controlx>
+			<controly>55</controly>
+			<read>b</read>
+			<write>B</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<controlx>358</controlx>
+			<controly>20</controly>
+			<read>c</read>
+			<write>c</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>b</read>
+			<write>b</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>C</read>
+			<write>C</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>c</read>
+			<write>C</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>C</read>
+			<write>C</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<controlx>167</controlx>
+			<controly>224</controly>
+			<read>a</read>
+			<write>a</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<controlx>258</controlx>
+			<controly>-60</controly>
+			<read>b</read>
+			<write>b</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>a</read>
+			<write>A</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>5</to>
+			<read>B</read>
+			<write>B</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>2</to>
+			<read>b</read>
+			<write>B</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>6</to>
+			<read>c</read>
+			<write>C</write>
+			<move>R</move>
+		</transition>
+		<note>
+			<text>abbcc</text>
+			<x>115.0</x>
+			<y>86.0</y>
+		</note>
 	</automaton>
 </structure>
