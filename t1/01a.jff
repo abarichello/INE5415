@@ -3,150 +3,42 @@
 	<automaton>
 		<!--The list of states.-->
 		<state id="0" name="q0">
-			<x>133.0</x>
-			<y>41.0</y>
+			<x>73.0</x>
+			<y>118.0</y>
 			<initial/>
 		</state>
 		<state id="1" name="q1">
-			<x>165.0</x>
-			<y>162.0</y>
+			<x>81.0</x>
+			<y>230.0</y>
 		</state>
 		<state id="2" name="q2">
-			<x>194.0</x>
-			<y>255.0</y>
+			<x>199.0</x>
+			<y>233.0</y>
 		</state>
 		<state id="3" name="q3">
-			<x>233.0</x>
-			<y>333.0</y>
+			<x>207.0</x>
+			<y>107.0</y>
+		</state>
+		<state id="4" name="q4">
+			<x>333.0</x>
+			<y>113.0</y>
 		</state>
 		<state id="5" name="q5">
-			<x>25.0</x>
-			<y>143.0</y>
+			<x>470.0</x>
+			<y>114.0</y>
 		</state>
 		<state id="6" name="q6">
-			<x>249.0</x>
-			<y>55.0</y>
+			<x>349.0</x>
+			<y>231.0</y>
 		</state>
 		<state id="7" name="q7">
-			<x>294.0</x>
-			<y>170.0</y>
+			<x>474.0</x>
+			<y>234.0</y>
 			<final/>
 		</state>
 		<!--The list of transitions.-->
 		<transition>
 			<from>1</from>
-			<to>5</to>
-			<read>C</read>
-			<write>C</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>6</to>
-			<read>B</read>
-			<write>B</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>5</to>
-			<read>C</read>
-			<write>C</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>3</to>
-			<controlx>297</controlx>
-			<controly>277</controly>
-			<read>C</read>
-			<write>C</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>3</to>
-			<controlx>313</controlx>
-			<controly>252</controly>
-			<read>b</read>
-			<write>b</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>5</from>
-			<to>5</to>
-			<read>a</read>
-			<write>a</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>5</from>
-			<to>5</to>
-			<read>B</read>
-			<write>b</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>1</to>
-			<controlx>109</controlx>
-			<controly>243</controly>
-			<read>B</read>
-			<write>B</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>7</to>
-			<controlx>269</controlx>
-			<controly>97</controly>
-			<read/>
-			<write/>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>1</to>
-			<controlx>267</controlx>
-			<controly>121</controly>
-			<read>a</read>
-			<write>a</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>2</to>
-			<controlx>262</controlx>
-			<controly>186</controly>
-			<read>C</read>
-			<write>C</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>2</to>
-			<controlx>305</controlx>
-			<controly>216</controly>
-			<read>b</read>
-			<write>b</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>6</to>
-			<read>C</read>
-			<write>C</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>6</to>
-			<read>B</read>
-			<write>B</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>5</from>
 			<to>0</to>
 			<read>A</read>
 			<write>A</write>
@@ -154,33 +46,128 @@
 		</transition>
 		<transition>
 			<from>2</from>
-			<to>3</to>
-			<read>c</read>
-			<write>C</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>2</to>
-			<controlx>175</controlx>
-			<controly>186</controly>
-			<read>b</read>
-			<write>B</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
-			<read>a</read>
+			<to>6</to>
+			<read>A</read>
 			<write>A</write>
 			<move>R</move>
 		</transition>
 		<transition>
 			<from>0</from>
+			<to>3</to>
+			<read>a</read>
+			<write>A</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>3</to>
+			<controlx>337</controlx>
+			<controly>178</controly>
+			<read>B</read>
+			<write>B</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>5</to>
+			<read>C</read>
+			<write>C</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>5</to>
+			<read>b</read>
+			<write>b</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>1</from>
 			<to>1</to>
+			<controlx>22</controlx>
+			<controly>330</controly>
+			<read>a</read>
+			<write>a</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<controlx>285</controlx>
+			<controly>166</controly>
+			<read>B</read>
+			<write>b</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>7</to>
+			<read/>
+			<write/>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>a</read>
+			<write>a</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>4</to>
 			<read>b</read>
 			<write>b</write>
 			<move>R</move>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>4</to>
+			<read>C</read>
+			<write>C</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>6</to>
+			<read>b</read>
+			<write>b</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>6</to>
+			<read>C</read>
+			<write>C</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>a</read>
+			<write>a</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>2</to>
+			<read>C</read>
+			<write>C</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>b</read>
+			<write>B</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>c</read>
+			<write>C</write>
+			<move>L</move>
 		</transition>
 	</automaton>
 </structure>
